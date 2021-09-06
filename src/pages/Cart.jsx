@@ -1,7 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import EmptyCart from "../assets/empty_cart.svg";
-import "./Cart.css";
 
 const Cart = ({ cart, updateCart, removeItem, totals }) => {
   return (
